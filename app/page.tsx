@@ -22,16 +22,20 @@ export default function SalesPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="#pricing"
+                  href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105"
                 >
-                  Start Free Trial
+                  Try Demo
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
                 </a>
                 <a
-                  href="#demo"
+                  href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-xl transition-all backdrop-blur-sm"
                 >
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -323,10 +327,15 @@ export default function SalesPage() {
               </li>
             </ul>
             
-            <button className="w-full bg-white text-indigo-600 font-bold py-4 px-8 rounded-xl hover:bg-indigo-50 transition-colors text-lg">
-              Start Free 30-Day Trial
-            </button>
-            <p className="text-sm text-indigo-200 mt-4">No credit card required. Full access. Cancel anytime.</p>
+            <a 
+              href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full block bg-white text-indigo-600 font-bold py-4 px-8 rounded-xl hover:bg-indigo-50 transition-colors text-lg text-center"
+            >
+              Try the Demo
+            </a>
+            <p className="text-sm text-indigo-200 mt-4">See it in action. No signup required.</p>
           </div>
           
           <div className="mt-8 text-slate-500">
@@ -373,16 +382,18 @@ export default function SalesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#pricing"
+              href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105 text-lg"
             >
-              Start Free 30-Day Trial
+              Try the Demo
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
           </div>
-          <p className="text-slate-500 mt-4">No credit card required. Full access. Setup in 48 hours.</p>
+          <p className="text-slate-500 mt-4">See it in action. No signup required.</p>
         </div>
       </section>
 
