@@ -22,6 +22,17 @@ export default function SalesPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
+                  href="https://calendar.google.com/calendar/u/0?cid=MTFjYWU5NGU4YzgyZDc1MTFiODJhMzFkYTk5NDA4NGI2MjhiNWYzYmJmMWNmODkzODg0NWU4ZjE1M2Y5ZjM0NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  Book a Call
+                </a>
+                <a
                   href="https://checkout.stripe.com/c/pay/cs_live_b1oUq8SmKWt4SvW5pqtdRAUZQejGyeaasUAOxLXb6hpYK9An5y5nc2UVO7"
                   className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105"
                 >
@@ -326,6 +337,14 @@ export default function SalesPage() {
             </ul>
             
             <a 
+              href="https://calendar.google.com/calendar/u/0?cid=MTFjYWU5NGU4YzgyZDc1MTFiODJhMzFkYTk5NDA4NGI2MjhiNWYzYmJmMWNmODkzODg0NWU4ZjE1M2Y5ZjM0NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full block bg-green-600 text-white font-bold py-4 px-8 rounded-xl hover:bg-green-700 transition-colors text-lg text-center mb-4"
+            >
+              Book a Call
+            </a>
+            <a 
               href="https://checkout.stripe.com/c/pay/cs_live_b1oUq8SmKWt4SvW5pqtdRAUZQejGyeaasUAOxLXb6hpYK9An5y5nc2UVO7"
               className="w-full block bg-white text-indigo-600 font-bold py-4 px-8 rounded-xl hover:bg-indigo-50 transition-colors text-lg text-center"
             >
@@ -378,6 +397,17 @@ export default function SalesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
+              href="https://calendar.google.com/calendar/u/0?cid=MTFjYWU5NGU4YzgyZDc1MTFiODJhMzFkYTk5NDA4NGI2MjhiNWYzYmJmMWNmODkzODg0NWU4ZjE1M2Y5ZjM0NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105 text-lg"
+            >
+              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              Book a Call
+            </a>
+            <a
               href="https://checkout.stripe.com/c/pay/cs_live_b1oUq8SmKWt4SvW5pqtdRAUZQejGyeaasUAOxLXb6hpYK9An5y5nc2UVO7"
               className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105 text-lg"
             >
@@ -387,7 +417,7 @@ export default function SalesPage() {
               </svg>
             </a>
           </div>
-          <p className="text-slate-500 mt-4">See it in action. No signup required.</p>
+          <p className="text-slate-500 mt-4">Questions? Book a call or start your free trial.</p>
         </div>
       </section>
 
