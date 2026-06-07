@@ -350,7 +350,7 @@ export default function SalesPage() {
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-slate-900 mb-2">What if the AI can't answer a question?</h3>
-              <p className="text-slate-600">The AI is trained on your business, but if it gets stuck, it takes a message and texts you immediately. You can call back within minutes.</p>
+              <p className="text-slate-600">The AI is trained on your business, but if a caller needs human assistance, it can seamlessly transfer them to you or your team. You stay in control.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="font-bold text-slate-900 mb-2">Is there a contract?</h3>
