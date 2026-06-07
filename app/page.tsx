@@ -22,7 +22,7 @@ export default function SalesPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://checkout.stripe.com/c/pay/cs_live_a1h4kIASRhlsZzvqF7SHFNxkbrdCrZ4M4EQKtnF4lWrmisPaOn9rCJDbIU"
+                  href="https://checkout.stripe.com/c/pay/cs_live_b1M4t4YU7dYVvozs2CGyCTNpe1fCTUspBHbAE2YhvwxjDe6xwo0Mbej8sA"
                   className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105"
                 >
                   Start Free Trial
@@ -326,7 +326,7 @@ export default function SalesPage() {
             </ul>
             
             <a 
-              href="https://checkout.stripe.com/c/pay/cs_live_a1h4kIASRhlsZzvqF7SHFNxkbrdCrZ4M4EQKtnF4lWrmisPaOn9rCJDbIU"
+              href="https://checkout.stripe.com/c/pay/cs_live_b1M4t4YU7dYVvozs2CGyCTNpe1fCTUspBHbAE2YhvwxjDe6xwo0Mbej8sA"
               className="w-full block bg-white text-indigo-600 font-bold py-4 px-8 rounded-xl hover:bg-indigo-50 transition-colors text-lg text-center"
             >
               Start Free 30-Day Trial
@@ -378,7 +378,7 @@ export default function SalesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://checkout.stripe.com/c/pay/cs_live_a1h4kIASRhlsZzvqF7SHFNxkbrdCrZ4M4EQKtnF4lWrmisPaOn9rCJDbIU"
+              href="https://checkout.stripe.com/c/pay/cs_live_b1M4t4YU7dYVvozs2CGyCTNpe1fCTUspBHbAE2YhvwxjDe6xwo0Mbej8sA"
               className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105 text-lg"
             >
               Start Free Trial
