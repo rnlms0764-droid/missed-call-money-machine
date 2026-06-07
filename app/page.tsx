@@ -22,7 +22,7 @@ export default function SalesPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://calendar.google.com/calendar/u/0?cid=MTFjYWU5NGU4YzgyZDc1MTFiODJhMzFkYTk5NDA4NGI2MjhiNWYzYmJmMWNmODkzODg0NWU4ZjE1M2Y5ZjM0NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+                  href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105"
@@ -337,7 +337,7 @@ export default function SalesPage() {
             </ul>
             
             <a 
-              href="https://calendar.google.com/calendar/u/0?cid=MTFjYWU5NGU4YzgyZDc1MTFiODJhMzFkYTk5NDA4NGI2MjhiNWYzYmJmMWNmODkzODg0NWU4ZjE1M2Y5ZjM0NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+              href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full block bg-green-600 text-white font-bold py-4 px-8 rounded-xl hover:bg-green-700 transition-colors text-lg text-center mb-4"
@@ -397,7 +397,7 @@ export default function SalesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://calendar.google.com/calendar/u/0?cid=MTFjYWU5NGU4YzgyZDc1MTFiODJhMzFkYTk5NDA4NGI2MjhiNWYzYmJmMWNmODkzODg0NWU4ZjE1M2Y5ZjM0NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+              href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105 text-lg"
