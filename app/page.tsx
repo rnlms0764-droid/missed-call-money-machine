@@ -42,7 +42,7 @@ export default function SalesPage() {
                   </svg>
                 </a>
                 <a
-                  href="https://calendar.app.google/rzbKAcRaz85XJ8EFA"
+                  href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-xl transition-all backdrop-blur-sm"
