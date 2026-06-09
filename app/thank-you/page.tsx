@@ -59,7 +59,7 @@ export default function ThankYouPage() {
             Ready to Get Started?
           </h2>
           <a
-            href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
+            href="https://calendar.app.google/rzbKAcRaz85XJ8EFA"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all text-lg"
@@ -146,7 +146,7 @@ export default function ThankYouPage() {
               Email Support
             </a>
             <a
-              href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
+              href="https://calendar.app.google/rzbKAcRaz85XJ8EFA"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all"
