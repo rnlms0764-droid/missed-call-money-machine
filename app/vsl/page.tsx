@@ -1,3 +1,5 @@
+import { StartTrialButton } from "@/components/start-trial-button"
+
 export default function VSLPage() {
   return (
     <main className="min-h-screen bg-slate-900 text-white">
@@ -52,15 +54,12 @@ export default function VSLPage() {
           </div>
 
           {/* CTA Button */}
-          <a
-            href="https://buy.stripe.com/YOUR_CHECKOUT_LINK"
-            className="inline-flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold py-5 px-10 rounded-xl transition-all transform hover:scale-105 text-xl shadow-2xl"
-          >
+          <StartTrialButton className="inline-flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold py-5 px-10 rounded-xl transition-all transform hover:scale-105 text-xl shadow-2xl disabled:opacity-70 disabled:cursor-not-allowed">
             Start Your 30-Day Free Trial
             <svg className="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
-          </a>
+          </StartTrialButton>
           
           <p className="text-slate-400 mt-4">No credit card required • Cancel anytime • Setup in 48 hours</p>
         </div>
@@ -99,12 +98,9 @@ export default function VSLPage() {
             <p className="text-slate-400">While you watch this video, your competitors are answering calls you're missing.</p>
           </div>
           
-          <a
-            href="https://buy.stripe.com/YOUR_CHECKOUT_LINK"
-            className="inline-flex items-center justify-center bg-white text-indigo-900 font-bold py-5 px-10 rounded-xl hover:bg-slate-100 transition-all transform hover:scale-105 text-xl"
-          >
+          <StartTrialButton className="inline-flex items-center justify-center bg-white text-indigo-900 font-bold py-5 px-10 rounded-xl hover:bg-slate-100 transition-all transform hover:scale-105 text-xl disabled:opacity-70 disabled:cursor-not-allowed">
             Claim Your 30-Day Free Trial Now
-          </a>
+          </StartTrialButton>
         </div>
       </section>
 

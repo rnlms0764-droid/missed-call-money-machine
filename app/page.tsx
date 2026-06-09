@@ -1,3 +1,5 @@
+import { StartTrialButton } from "@/components/start-trial-button"
+
 export default function SalesPage() {
   return (
     <main className="min-h-screen bg-white">
@@ -32,15 +34,12 @@ export default function SalesPage() {
                   </svg>
                   Book a Call
                 </a>
-                <a
-                  href="https://checkout.stripe.com/c/pay/cs_live_b1oUq8SmKWt4SvW5pqtdRAUZQejGyeaasUAOxLXb6hpYK9An5y5nc2UVO7"
-                  className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105"
-                >
+                <StartTrialButton className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105 disabled:opacity-70 disabled:cursor-not-allowed">
                   Start Free Trial
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
-                </a>
+                </StartTrialButton>
                 <a
                   href="https://mydigitalgig.mydigitalgig.com/demo/d30bad2dd9f742f90ece2d85dada5d973d7e3232"
                   target="_blank"
@@ -344,12 +343,9 @@ export default function SalesPage() {
             >
               Book a Call
             </a>
-            <a 
-              href="https://checkout.stripe.com/c/pay/cs_live_b1oUq8SmKWt4SvW5pqtdRAUZQejGyeaasUAOxLXb6hpYK9An5y5nc2UVO7"
-              className="w-full block bg-white text-indigo-600 font-bold py-4 px-8 rounded-xl hover:bg-indigo-50 transition-colors text-lg text-center"
-            >
+            <StartTrialButton className="w-full block bg-white text-indigo-600 font-bold py-4 px-8 rounded-xl hover:bg-indigo-50 transition-colors text-lg text-center disabled:opacity-70 disabled:cursor-not-allowed">
               Start Free 30-Day Trial
-            </a>
+            </StartTrialButton>
             <p className="text-sm text-indigo-200 mt-4">No credit card required. Full access. Cancel anytime.</p>
           </div>
           
@@ -407,15 +403,12 @@ export default function SalesPage() {
               </svg>
               Book a Call
             </a>
-            <a
-              href="https://checkout.stripe.com/c/pay/cs_live_b1oUq8SmKWt4SvW5pqtdRAUZQejGyeaasUAOxLXb6hpYK9An5y5nc2UVO7"
-              className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105 text-lg"
-            >
+            <StartTrialButton className="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all transform hover:scale-105 text-lg disabled:opacity-70 disabled:cursor-not-allowed">
               Start Free Trial
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
-            </a>
+            </StartTrialButton>
           </div>
           <p className="text-slate-500 mt-4">Questions? Book a call or start your free trial.</p>
         </div>
